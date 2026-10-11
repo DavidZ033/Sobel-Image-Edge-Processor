@@ -13,5 +13,5 @@ $$\underbrace{\begin{bmatrix} 10 & 20 & 30 \\ 40 & 50 & 60 \\ 70 & 80 & 90 \end{
 **Calculation Breakdown (Element-wise multiplication & sum):**
 * **Top Row:** $(-1 \times 10) + (0 \times 20) + (1 \times 30) = \mathbf{20}$
 * **Middle Row:** $(-2 \times 40) + (0 \times 50) + (2 \times 60) = \mathbf{40}$
-* **Bottom Row:** $(-1 \times 70) + (0 \times 80) + (1 \times 90) = \mathbf{20}$
+* **Bottom Row:** $(-1 \times 70) + (0 \x 80) + (1 \times 90) = \mathbf{20}$
 * **Final Output Value:** $20 + 40 + 20 = \mathbf{80}$
