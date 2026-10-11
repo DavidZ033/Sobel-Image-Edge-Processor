@@ -8,7 +8,7 @@ $$\nabla I = \left( \frac{\partial I}{\partial x}, \frac{\partial I}{\partial y}
 
 Before we go into the actual process, we must explain what a convolution in imaging is. When we apply a 3x3 convolution to an image, the center of the matrix corresponds to the pixel and the numbers surrounding the pixel are coefficients multiplied by a value that corresponds to the pixels. Then all of thos evalues are summed together to get our new value. This matrix is called our kernel or filter. A visual example is shown below:
 
-$\left[\begin{smallmatrix} 10 & 20 & 30 \\ 40 & 50 & 60 \\ 70 & 80 & 90 \end{smallmatrix}\right] * \left[\begin{smallmatrix} -1 & 0 & 1 \\ -2 & 0 & 2 \\ -1 & 0 & 1 \end{smallmatrix}\right] \longrightarrow \text{Sum of Products} \longrightarrow \mathbf{80}$
+$$\left[\begin{smallmatrix} 10 & 20 & 30 \\ 40 & 50 & 60 \\ 70 & 80 & 90 \end{smallmatrix}\right] * \left[\begin{smallmatrix} -1 & 0 & 1 \\ -2 & 0 & 2 \\ -1 & 0 & 1 \end{smallmatrix}\right] \longrightarrow \text{Sum of Products} \longrightarrow \mathbf{80}$$
 
 **Calculation Breakdown (Element-wise multiplication & sum):**
 * **Top Row:** $(-1 \times 10) + (0 \times 20) + (1 \times 30) = \mathbf{20}$
