@@ -163,10 +163,10 @@ The result can exceed the original pixel brightness range because it represents 
 The direction of the gradient can be calculated using:
 
 ```math
-\theta = \operatorname{atan2}(G_y,G_x)
+\theta = \mathrm{atan2}(G_y,G_x)
 ```
 
-The function $\operatorname{atan2}$ uses the signs of both responses to determine the correct direction.
+The function $\mathrm{atan2}$ uses the signs of both responses to determine the correct direction.
 
 The gradient points toward the greatest increase in brightness, so it is perpendicular to the edge. For example, a vertical edge has a horizontal gradient.
 
