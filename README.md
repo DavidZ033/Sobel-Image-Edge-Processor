@@ -187,3 +187,10 @@ A lower threshold detects weaker changes but may include more noise. A higher th
 Pixels at the image boundaries do not have a complete $3 \times 3$ neighborhood, so we must also choose how to handle them. Common approaches include extending the boundary values, padding the image, or skipping the outermost pixels.
 
 The Sobel operator detects local changes in brightness, which may come from object boundaries, shadows, textures, or noise. Its output tells us where these changes occur and how strong they are, but it does not determine what caused them.
+
+Here are some fun pictures we took. The pictures taken using the FPGA have a much lower resolution because our wire to laptop connection had a high gauge wire.
+
+![HighResDavid](images/HighResDavid.png)
+![LowResKen](images/LowResKen.png)
+![LowResKen_David](images/LowResKen_David.png)
+
